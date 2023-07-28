@@ -17,12 +17,14 @@ class Variables{
       float e= 3.28f;
       double g= 3.32328f;
       char f= 'A';
+      long l= 111111111111112L;
       System.out.println(c);
       System.out.println(d);
       System.out.println(e);
       System.out.println(e);
       System.out.println(f);
       System.out.println(g);
+      System.out.println(l);
       
 
 
