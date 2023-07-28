@@ -9,7 +9,22 @@ class Variables{
       System.out.println(b);
 
       //now it will throw error bca range of max byte can store is 127
-      b=129;
+      // b=129;
       System.out.println(b);
+
+      int c=412;
+      short d=300;
+      float e= 3.28f;
+      double g= 3.32328f;
+      char f= 'A';
+      System.out.println(c);
+      System.out.println(d);
+      System.out.println(e);
+      System.out.println(e);
+      System.out.println(f);
+      System.out.println(g);
+      
+
+
     }
 }
