@@ -19,6 +19,8 @@ class StringPractice{
 
              String str1= "hritik";
              String str2= "hritik";
-             System.out.println(str1==str2); // it means both str are holding the same object and pointing to hritik on the same String pool 
+             String str3= new String("hritik");
+             System.out.println(str1==str3);  // false  now it created a new object 
+              System.out.println(str1==str2); //true  it means both str are holding the same object and pointing to hritik on the same String pool 
     }
 }
